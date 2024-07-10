@@ -1,0 +1,210 @@
+.cursurilectie-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 40px);
+  box-sizing: border-box;
+}
+
+.cursurilectie-header {
+  border-radius: 10px;
+  box-shadow: rgb(76, 166, 251) 0px 10px 30px -5px;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(255, 255, 255);
+  color: rgb(76, 166, 251);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.lecture-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.cursurilectie-header-button {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.cursurilectie-add-button {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: none;
+  box-shadow: rgb(76, 166, 251) 0px -3px 0px inset;
+  color: rgb(76, 166, 251);
+  display: inline-block;
+  font-size: 16px;
+  justify-content: center;
+  width: 12vw;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-top: 1vw;
+  margin-right: 10px;
+}
+.cursurilectie-option-button {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: none;
+  box-shadow: rgb(76, 166, 251) 0px -3px 0px inset;
+  color: rgb(76, 166, 251);
+  display: inline-block;
+  font-size: 12px;
+  justify-content: center;
+  width: 10vw;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-top: 2vw;
+}
+.cursurilectie-adauga-button {
+  background: rgb(253, 253, 253);
+  border-radius: 8px;
+  box-shadow: rgb(76, 166, 251) 0px -3px 0px inset;
+  color: rgb(76, 166, 251);
+  font-size: 12px;
+  width: 200px;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 3vw;
+}
+.cursurilectie-footer {
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(76, 166, 251) 0px 10px 30px -5px;
+  color: rgb(76, 166, 251);
+  text-align: center;
+  padding: 10px 20px;
+  width: calc(100% - 40px);
+  margin-top: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.week-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  margin-right: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  width: 70vw;
+  flex: 3;
+}
+
+.week-title {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.lecture-link {
+  display: block;
+  color: #0066cc;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.lecture-link:last-child {
+  border-bottom: none;
+}
+
+.pdf-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 40px;
+}
+.cursurilectie-menu {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  padding: 5px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+
+  left: 58vw;
+}
+.cursurilectie-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+  flex: 1;
+}
+
+.cursurilectie-menu button:hover {
+  background-color: #f2f2f2;
+}
+
+.student-list {
+  padding: 10px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: auto;
+  margin-top: 80px;
+  margin-right: 20px;
+  width: 30vw;
+}
+
+.cursurilectie-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.initials-circle {
+  width: 65px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: rgb(76, 166, 251);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.initials-circle-header {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
